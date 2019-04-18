@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+keras = "*"
+numpy = "*"
+pandas = "*"
+matplotlib = "*"
+theano = "*"
+tensorflow = "*"
+json = "*"
+
+[requires]
+python_version = "3.6"
