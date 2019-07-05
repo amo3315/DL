@@ -20,13 +20,14 @@ cur_path = sys.argv[3]
 qj_path = sys.argv[4]
 tly_path=sys.argv[5]
 
+
 vibr_0 = pd.read_csv(vibr_path)
 cur_0 = pd.read_csv(cur_path)
 qj_0 = pd.read_csv(qj_path)
 tly_0 = pd.read_csv(tly_path)
 temp_0 = pd.read_csv(temp_path)
-
 dict0 = {}
+
 
 for i in range(600):
     dict0[i]['vibr_UB']=datamix(vibr_0["UB"],4000)[i]
